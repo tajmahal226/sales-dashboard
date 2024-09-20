@@ -1,6 +1,7 @@
 const { useState, useEffect } = React;
-const { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } = Recharts;
+const { BarChart, Bar, FunnelChart, Funnel, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer, LabelList } = Recharts;
 
-// Paste the SalesDashboard component here
+// Import components
+import EnhancedSalesDashboard from './EnhancedSalesDashboard.js';
 
-ReactDOM.render(<SalesDashboard />, document.getElementById('root'));
+ReactDOM.render(<EnhancedSalesDashboard />, document.getElementById('root'));
